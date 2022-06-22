@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<configuration>
+	
+	<typeAliases>
+		<typeAlias type="com.ssamz.biz.dao.WooriBankVO" alias="Wooribank"/>
+		<typeAlias type="com.ssamz.biz.dao.KBStarBankVO" alias="KBStarbank"/>
+	</typeAliases>
+	
+	<mappers>
+		<mapper resource="mappings/Wooribank-mapping(mybatis).xml"/>
+		<mapper resource="mappings/KBStarbank-mapping(mybatis).xml"/>
+	</mappers>
+
+</configuration>
+
+
+
